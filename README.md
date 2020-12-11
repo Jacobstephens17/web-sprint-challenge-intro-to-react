@@ -29,13 +29,13 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
-
+    It is a library that helps you better compile javascript, html, and css. It's all 3 wrapped into the reactjs package. You can make component libraries that can be dropped anywhere in your code so it makes the process less about making individual pieces and more about constructing the end product
 1. Describe component state.
     There is the initial state that is saved so that later on you can change the state based on user input or based on adding data to it etc
 1. Describe props.
     Props are a container to pass information between components
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
-
+    Things that are happening outside the program itself, like api pulls etc
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
 ## Instructions

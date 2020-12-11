@@ -1,16 +1,19 @@
 import React from 'react'
 import styled from 'styled-components'
 
-
 const StyledCard = styled.div`
-border:3px solid #800000;
+border:3px solid #0000CD;
 width:25%;
 margin:auto;
 flex-wrap:wrap;
+margin:3rem 3rem;
+color:#0000CD;
+padding:3rem;
 `
 
 export default function CharacterCard(props){
-    const { character, name, image, birth_year, gender, homeworld, height } = props;
+
+    const { character, name, birth_year, gender, homeworld, height } = props;
 
     return(
         <StyledCard>
